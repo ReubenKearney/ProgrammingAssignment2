@@ -1,5 +1,5 @@
 # R Programming - Assignment 2
-# The purpose of the makeCacheMatrix and cachSolve custom functions are to cache the inverse of a matrix.
+# The purpose of the makeCacheMatrix and cacheSolve custom functions are to cache the inverse of a matrix.
 # The advantage in caching this function is that it avoids repeating computationally expensive functions.
 # This is possible in R since it uses lexical scoping, which allows the creation of distinct and interdependent user defined objects.
 # The setInverse and getInverse functions are defined using the <<- assignment operator so they are not exposed to the outside environment. 
